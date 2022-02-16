@@ -43,6 +43,11 @@
         "SUDO_USERS": {
             "description": "list of user ids to be added to sudo member list, or just fill with your id",
             "required": true
+        },    
+        "BG_IMAGE": {
+            "description": "BG image of bot (Use transparent one) [IGNORE].",
+            "required": false,
+            "value": "https://telegra.ph/file/ef7d073ed69000b4a51e1.png"
         },
         "GROUP_SUPPORT": {
             "description": "if you have group, then fill the group username here without @",
